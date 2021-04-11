@@ -32,9 +32,9 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col text-center justify-center items-center mx-auto px-8 py-5">
             <h2 className="text-sm text-indigo-200 font-semibold tracking-wide uppercase">Piano con Diana</h2>
-            <h1 className="text-4xl font-extrabold text-white tracking-tight sm:text-4xl">Coloque aqui un mensaje para motivar</h1>
+            <h1 className="text-4xl font-extrabold text-white tracking-tight sm:text-4xl">Curso Gratis de Piano by Diana Angulo </h1>
             <p className="text-lg my-4 font-medium text-gray-100">
-              Un subtitulo para acompañar a la invitacion
+              Fecha de inicio: 9 de Abril
             </p>
             <Link href="/clase1" className="">
               <div className="cursor-pointer rounded-md lg:w-1/2 shadow w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-800 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
