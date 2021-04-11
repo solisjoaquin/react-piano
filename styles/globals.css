@@ -13,6 +13,10 @@ body {
   box-sizing: border-box;
 }
 
+.title {
+  font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+}
+
 ul {
 
  height:18.875em;

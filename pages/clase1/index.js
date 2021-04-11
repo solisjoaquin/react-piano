@@ -21,13 +21,16 @@ export default function Home() {
             <Head>
                 <title>Clase 1</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" />
+                <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+
             </Head>
             <Navbar />
             <div>
 
             </div>
             <main className="main">
-                <h2 className="text-3xl font-bold leading-7 text-white py-4 mb-8 sm:text-4xl">Clase 1</h2>
+                <h2 className="title text-3xl font-bold leading-7 text-white py-4 mb-8 sm:text-4xl">Clase 1</h2>
 
                 <div className="flex flex-col">
                     {loading ?
