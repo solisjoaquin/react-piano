@@ -109,7 +109,7 @@ export const Piano = () => {
         return playB2()
     }
     return (<div>
-        <h2 className="text-3xl text-white text-center font-bold leading-7 py-4 mb-8 sm:text-4xl">Nota = {note}</h2>
+        <h2 className="title text-3xl text-white text-center font-bold leading-7 py-4 mb-8 sm:text-4xl">Nota = {note}</h2>
         <ul className="set py-5 px-4 hidden lg:block">
 
             <li onClick={handleClickC} className="white e"></li>

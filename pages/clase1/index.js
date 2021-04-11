@@ -21,10 +21,9 @@ export default function Home() {
             <Head>
                 <title>Clase 1</title>
                 <link rel="icon" href="/favicon.ico" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" />
-                <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
 
-            </Head>
+                <link rel="preconnect" href="https://fonts.gstatic.com" />
+                <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet" />             </Head>
             <Navbar />
             <div>
 
@@ -47,7 +46,7 @@ export default function Home() {
                         </div>
                     }
                     <div className="px-2 mx-auto">
-                        <h4 className="text-2xl text-center py-3 font-bold leading-7 text-white mt-3 sm:truncate">Ejercicios para practicar</h4>
+                        <h4 className="title text-2xl text-center py-3 font-bold leading-7 text-white mt-3 sm:truncate">Ejercicios para practicar</h4>
 
                         <Table />
                     </div>
